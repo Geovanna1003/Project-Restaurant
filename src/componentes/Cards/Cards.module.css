@@ -33,8 +33,8 @@
 
 
 .card {
-    width: 250px;
-    flex-grow: 1; 
+    max-width: 100%;
+    flex: 1 1 250px; 
     display: flex;
     flex-direction: column;
     border: 1px solid var(--cor-dourado);
@@ -85,4 +85,15 @@
     font-weight: 600;
     margin-top: 10px;
 }
+@media (max-width: 480px) {
+    .card {
+        flex: 1 1 100%; 
+        max-width: 100%;
+    }
+
+    .container_cards {
+        justify-content: center; 
+    }
+}
+
 
