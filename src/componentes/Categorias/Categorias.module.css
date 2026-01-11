@@ -1,0 +1,40 @@
+.secao_categorias {
+    max-width: 1024px;
+   margin: 0 auto;
+   margin-top: 30px;
+}
+.botoes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.botoes button {
+    display: flex;
+    flex: 1 1 150px;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+
+}
+.botoes button:hover {
+    background-color: var(--cor-dourado);
+} 
+.icone {
+    width: 20px;
+    height: auto;
+}
+.botoes button.ativo {
+  background-color: var(--cor-dourado); 
+  
+}
+
+
+

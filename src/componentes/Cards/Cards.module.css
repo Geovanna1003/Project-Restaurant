@@ -1,0 +1,88 @@
+
+.secao_cards {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: var(--cor-cinza-claro);
+}
+
+
+.secao_cards h2 {
+    color: var(--cor-dourado);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+
+
+.secao_cards > .container_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+
+.card {
+    width: 250px;
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--cor-dourado);
+    border-radius: 4px;
+    overflow: hidden;
+    
+}
+
+
+.card figure {
+    width: 100%;
+    height: 250px;
+    margin: 0;
+}
+
+.card figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.informacoes {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    flex-grow: 1;
+    min-height: 150px;
+}
+
+
+.informacoes div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.informacoes small {
+    color: var(--cor-dourado);
+}
+
+
+.informacoes div:last-child {
+    text-align: right;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
